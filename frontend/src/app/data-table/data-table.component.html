@@ -1,0 +1,27 @@
+<input
+  type="text"
+  id="myInput"
+  placeholder="Search for names.."
+  title="Type in a name"
+  [(ngModel)]="query"
+/>
+<table id="myTable">
+  <tr class="header">
+    <th>Nom</th>
+    <th>Description</th>
+    <th>Pays</th>
+    <th>Annee</th>
+    <th>Trimestre</th>
+    <th>Date De Creation</th>
+  </tr>
+  <tr *ngFor="let processusFiscal of processusFiscaux | filterArray: query">
+    <td>{{ processusFiscal.name }}</td>
+    <td>{{ processusFiscal.description }}</td>
+    <td>{{ processusFiscal.pays }}</td>
+    <td>{{ processusFiscal.annee }}</td>
+    <td>{{ processusFiscal.trimestre }}</td>
+    <td>{{ processusFiscal.dateDeCreation | date: "yyyy-MM-dd" }}</td>
+  </tr>
+
+</table>
+<div *ngIf="!(processusFiscaux | filterArray: query)?.length">No data</div>

@@ -1,0 +1,13 @@
+<div class="timeline">
+  <ul>
+    <li *ngFor="let processusFiscal of processusFiscaux; let i = index">
+      <span>{{ processusFiscal.dateDeCreation | date: "yyyy-MM-dd" }}</span>
+      <div class="content">
+        <h3>{{ processusFiscal.name }}</h3>
+        <p>
+         {{processusFiscal.description}}
+        </p>
+      </div>
+    </li>
+  </ul>
+</div>

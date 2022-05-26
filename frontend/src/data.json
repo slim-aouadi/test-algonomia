@@ -1,0 +1,31 @@
+[
+
+    {
+        "id":1,
+        "name":"Event1",
+        "location":"Location1",
+        "startDate": "2018-12-10T13:45:00.000Z",
+        "numberOfAttendees":"250"
+    },
+    {
+        "id":2,
+        "name":"Event2",
+        "location":"Location2",
+        "startDate": "2018-12-10T13:45:00.000Z",
+        "numberOfAttendees":"150"
+    },
+    {
+        "id":3,
+        "name":"Event3",
+        "location":"Location3",
+        "startDate": "2018-12-10T13:45:00.000Z",
+        "numberOfAttendees":"50"
+    },
+    {
+        "id":4,
+        "name":"Event4",
+        "location":"Location4",
+        "startDate": "2018-12-10T13:45:00.000Z",
+        "numberOfAttendees":"100"
+    }
+]

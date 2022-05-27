@@ -2,8 +2,6 @@
 
 ## Tutorial: Getting Started
 
-Follow the steps below to see how this library works, or [watch this screencast](https://www.youtube.com/watch?v=3mqWrmZtefE).
-
 1. Clone this repository.
 
     ```
